@@ -6,8 +6,7 @@
 
 using namespace std;
 
-namespace register1
-{
+
 class phoneBook
 {
 char name[20],phno[11];
@@ -329,11 +328,8 @@ void phoneBook :: deleterec()
         else cout<<"RECORD NOT FOUND"<<endl;
     }
  
-   }
 }
 
-
-using namespace register1;
 int main()
 {
     phoneBook rec;
